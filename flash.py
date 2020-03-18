@@ -3,12 +3,12 @@ from requests import get
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome("F:/WORK/chromedriver_win32/chromedriver_win32/chromedriver")
-url = "https://www.flipkart.com/poco-f1-steel-blue-256-gb/p/itmf8qpcumze7msy?pid=MOBF85V7SSRXGFRZ&lid=LSTMOBF85V7SSRXGFRZYF68TE&marketplace=FLIPKART&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_0_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_0_6_na_na_na&fm=organic&iid=9166a6de-1d95-4de9-823a-2065b0dd214b.MOBF85V7SSRXGFRZ.SEARCH&ssid=rc5q8mhg9c0000001584519031461&qH=9b046b567ecc0251"
+driver = webdriver.Chrome("chrome driver location")
+url = "enter url"
 driver.get(url)
 driver.implicitly_wait(10)
-username = "7837223239"
-password = "khullar123"
+username = "email id / phone number"
+password = "entyer password"
 def buy_now():
     while True:
         # response = get(url)
