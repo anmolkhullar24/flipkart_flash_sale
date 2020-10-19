@@ -1,14 +1,13 @@
 from selenium import webdriver
 from requests import get
 import time
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome("chrome driver location")
 url = "enter url"
 driver.get(url)
 driver.implicitly_wait(10)
 username = "email id / phone number"
-password = "entyer password"
+password = "enter password"
 def buy_now():
     while True:
         # response = get(url)
